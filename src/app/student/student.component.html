@@ -1,0 +1,10 @@
+<p class="name">{{ childStudent?.name }}</p>
+<p class="info">ID: {{ childStudent?.id }}</p>
+<p class="info">Age: {{ childStudent?.age }}</p>
+
+<div class="card-footer">
+  <span class="badge">{{ childStudent?.course }}</span>
+  <button (click)="click()" type="button" class="student-button">
+    View Details
+  </button>
+</div>

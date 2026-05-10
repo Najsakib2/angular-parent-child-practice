@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Cards</title>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="card" *ngFor="let students of student">
+        <app-student
+          [childStudent]="students"
+          (studentClickEvent)="onStudentClick($event[0], $event[1])"
+        ></app-student>
+      </div>
+    </div>
+    <div class="selected-name" *ngIf="selectedStudentName">
+      Selected student: <strong>{{ selectedStudentName }}</strong>
+    </div>
+    <div class="selected-age" *ngIf="selectedStudentAge">
+      Age: <strong>{{ selectedStudentAge }}</strong>
+    </div>
+  </body>
+</html>
