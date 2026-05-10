@@ -1,4 +1,4 @@
-# Hello Angular
+# Angular Parent Child Communication
 
 A simple Angular application that displays student information in an interactive card layout. This project demonstrates basic Angular concepts including components, data binding, event handling, and component communication.
 
@@ -8,30 +8,6 @@ A simple Angular application that displays student information in an interactive
 - Interactive selection: Click "View Details" to select a student
 - Real-time display of selected student's name and age
 - Responsive grid layout for student cards
-
-## Prerequisites
-
-Before running this project, make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (version 16 or higher)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
-- [Angular CLI](https://angular.io/cli) (install globally with `npm install -g @angular/cli`)
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/hello-angular.git
-   cd hello-angular
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-## Usage
 
 ### Development Server
 
@@ -98,26 +74,3 @@ src/
 ├── index.html                    # Main HTML file
 └── styles.css                    # Global styles
 ```
-
-## Technologies Used
-
-- **Angular**: Framework for building the web application
-- **TypeScript**: Programming language for type-safe development
-- **RxJS**: Reactive programming library
-- **Jasmine/Karma**: Testing framework and test runner
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Further Help
-
-For more help on Angular CLI commands, visit the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
